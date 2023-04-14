@@ -7,8 +7,8 @@ Assorted Steam Deck stuff
 
 
 ## Usage
-### use_wine_environment.sh
-- `source ./use_wine_environment.sh (Steam AppID)`
+### use_wine_env.sh
+- `source ./use_wine_env.sh (Steam AppID)`
 - Change directory (`cd`) into the relevant directory (usually `/home/deck/.steam/steam/steamapps/common/` or `/run/media/mmcblk0p1/steamapps/common`, or wherever the executables you want to run are)
 - Use `wine` commands as normal, or to execute . Example: `wine additional_game_executable_file.exe` or `wine cmd` for a command prompt
 
@@ -19,8 +19,8 @@ Assorted Steam Deck stuff
 
 
 ## Todo
-- Move use_wine_environment into it's own folder/own readme/etc.
-- Copy TODO's from use_wine_environment to here, or issue tracking.
+- Move use_wine_env into it's own folder/own readme/etc.
+- Copy TODO's from use_wine_env.sh to here, or issue tracking.
 - Remove verbose output that seems to be silent / add some --quiet equivalent flag (?)
 - General improvements (all of this was written on the Steam Deck with a not very nice, cheap Bluetooth keyboard)
 - Helper scripts for GotR/SR2/other recommendations. Open an issue if you want to see a helper script created for any mod!
