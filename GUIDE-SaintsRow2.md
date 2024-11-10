@@ -8,7 +8,7 @@
 - Install from [this README](README.md)
 - Download and extract Gentlemen of the Row, right click and 'Open Terminal Here' (while inside the GotR folder that contains the .bat file)
 - Run `cd ~/steamdeck-stuff`
-- Run `source ./use_win_env.sh 9480`
+- Run `source ./use_wine_env.sh 9480`
 - `cd` into the folder containing the extracted Gentlemen of the Row folder
 - Run `wine Create_Custom_GotR_v1.9.2.bat`
 - If you have selected a button patch, this will be installed automatically if you selected in the batch installer.
